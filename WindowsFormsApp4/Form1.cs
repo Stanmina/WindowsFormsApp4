@@ -143,7 +143,7 @@ namespace WindowsFormsApp4
 
         private void btnStan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Stan was hier en blijft hier!");
+            MessageBox.Show(" Stan was hier en blijft hier! \n STOP IT!");
         }
     }
 }
