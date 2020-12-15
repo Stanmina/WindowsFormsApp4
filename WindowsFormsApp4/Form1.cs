@@ -138,7 +138,7 @@ namespace WindowsFormsApp4
 
         private void LARS_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("lars was hier en blijft hier!");
+            MessageBox.Show("lars was hier en blijft hier! aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
         }
 
         private void btnStan_Click(object sender, EventArgs e)
