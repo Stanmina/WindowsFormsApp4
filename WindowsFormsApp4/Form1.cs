@@ -135,5 +135,10 @@ namespace WindowsFormsApp4
                 MessageBox.Show("Getal moet tussen 0 en 10 zijn");
             }
         }
+
+        private void LARS_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("lars was hier");
+        }
     }
 }

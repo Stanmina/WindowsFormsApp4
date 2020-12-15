@@ -35,6 +35,7 @@ namespace WindowsFormsApp4
             this.btnFor = new System.Windows.Forms.Button();
             this.tbTafel = new System.Windows.Forms.TextBox();
             this.tbTafelVan = new System.Windows.Forms.TextBox();
+            this.LARS = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbDagenVanDeWeek
@@ -91,11 +92,22 @@ namespace WindowsFormsApp4
             this.tbTafelVan.Size = new System.Drawing.Size(75, 20);
             this.tbTafelVan.TabIndex = 5;
             // 
+            // LARS
+            // 
+            this.LARS.Location = new System.Drawing.Point(109, 276);
+            this.LARS.Name = "LARS";
+            this.LARS.Size = new System.Drawing.Size(75, 23);
+            this.LARS.TabIndex = 6;
+            this.LARS.Text = "HAAI";
+            this.LARS.UseVisualStyleBackColor = true;
+            this.LARS.Click += new System.EventHandler(this.LARS_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(332, 365);
+            this.Controls.Add(this.LARS);
             this.Controls.Add(this.tbTafelVan);
             this.Controls.Add(this.tbTafel);
             this.Controls.Add(this.btnFor);
@@ -118,6 +130,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.Button btnFor;
         private System.Windows.Forms.TextBox tbTafel;
         private System.Windows.Forms.TextBox tbTafelVan;
+        private System.Windows.Forms.Button LARS;
     }
 }
 
