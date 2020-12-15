@@ -140,5 +140,10 @@ namespace WindowsFormsApp4
         {
             MessageBox.Show("lars was hier en blijft hier!");
         }
+
+        private void btnStan_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Stan was hier");
+        }
     }
 }

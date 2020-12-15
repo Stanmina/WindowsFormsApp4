@@ -36,22 +36,25 @@ namespace WindowsFormsApp4
             this.tbTafel = new System.Windows.Forms.TextBox();
             this.tbTafelVan = new System.Windows.Forms.TextBox();
             this.LARS = new System.Windows.Forms.Button();
+            this.btnStan = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // cmbDagenVanDeWeek
             // 
             this.cmbDagenVanDeWeek.FormattingEnabled = true;
-            this.cmbDagenVanDeWeek.Location = new System.Drawing.Point(48, 49);
+            this.cmbDagenVanDeWeek.Location = new System.Drawing.Point(64, 60);
+            this.cmbDagenVanDeWeek.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbDagenVanDeWeek.Name = "cmbDagenVanDeWeek";
-            this.cmbDagenVanDeWeek.Size = new System.Drawing.Size(228, 21);
+            this.cmbDagenVanDeWeek.Size = new System.Drawing.Size(303, 24);
             this.cmbDagenVanDeWeek.TabIndex = 0;
             this.cmbDagenVanDeWeek.SelectedIndexChanged += new System.EventHandler(this.cmbDagenVanDeWeek_SelectedIndexChanged);
             // 
             // btnWhile
             // 
-            this.btnWhile.Location = new System.Drawing.Point(48, 91);
+            this.btnWhile.Location = new System.Drawing.Point(64, 112);
+            this.btnWhile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnWhile.Name = "btnWhile";
-            this.btnWhile.Size = new System.Drawing.Size(75, 23);
+            this.btnWhile.Size = new System.Drawing.Size(100, 28);
             this.btnWhile.TabIndex = 1;
             this.btnWhile.Text = "While loop";
             this.btnWhile.UseVisualStyleBackColor = true;
@@ -59,9 +62,10 @@ namespace WindowsFormsApp4
             // 
             // btnDoWhile
             // 
-            this.btnDoWhile.Location = new System.Drawing.Point(48, 120);
+            this.btnDoWhile.Location = new System.Drawing.Point(64, 148);
+            this.btnDoWhile.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnDoWhile.Name = "btnDoWhile";
-            this.btnDoWhile.Size = new System.Drawing.Size(75, 23);
+            this.btnDoWhile.Size = new System.Drawing.Size(100, 28);
             this.btnDoWhile.TabIndex = 2;
             this.btnDoWhile.Text = "Do While";
             this.btnDoWhile.UseVisualStyleBackColor = true;
@@ -69,9 +73,10 @@ namespace WindowsFormsApp4
             // 
             // btnFor
             // 
-            this.btnFor.Location = new System.Drawing.Point(48, 149);
+            this.btnFor.Location = new System.Drawing.Point(64, 183);
+            this.btnFor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnFor.Name = "btnFor";
-            this.btnFor.Size = new System.Drawing.Size(75, 23);
+            this.btnFor.Size = new System.Drawing.Size(100, 28);
             this.btnFor.TabIndex = 3;
             this.btnFor.Text = "For loop";
             this.btnFor.UseVisualStyleBackColor = true;
@@ -79,34 +84,48 @@ namespace WindowsFormsApp4
             // 
             // tbTafel
             // 
-            this.tbTafel.Location = new System.Drawing.Point(129, 91);
+            this.tbTafel.Location = new System.Drawing.Point(172, 112);
+            this.tbTafel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbTafel.Multiline = true;
             this.tbTafel.Name = "tbTafel";
-            this.tbTafel.Size = new System.Drawing.Size(147, 139);
+            this.tbTafel.Size = new System.Drawing.Size(195, 170);
             this.tbTafel.TabIndex = 4;
             // 
             // tbTafelVan
             // 
-            this.tbTafelVan.Location = new System.Drawing.Point(48, 178);
+            this.tbTafelVan.Location = new System.Drawing.Point(64, 219);
+            this.tbTafelVan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tbTafelVan.Name = "tbTafelVan";
-            this.tbTafelVan.Size = new System.Drawing.Size(75, 20);
+            this.tbTafelVan.Size = new System.Drawing.Size(99, 22);
             this.tbTafelVan.TabIndex = 5;
             // 
             // LARS
             // 
-            this.LARS.Location = new System.Drawing.Point(109, 276);
+            this.LARS.Location = new System.Drawing.Point(145, 340);
+            this.LARS.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LARS.Name = "LARS";
-            this.LARS.Size = new System.Drawing.Size(75, 23);
+            this.LARS.Size = new System.Drawing.Size(100, 28);
             this.LARS.TabIndex = 6;
             this.LARS.Text = "HAAI";
             this.LARS.UseVisualStyleBackColor = true;
             this.LARS.Click += new System.EventHandler(this.LARS_Click);
             // 
+            // btnStan
+            // 
+            this.btnStan.Location = new System.Drawing.Point(64, 249);
+            this.btnStan.Name = "btnStan";
+            this.btnStan.Size = new System.Drawing.Size(99, 23);
+            this.btnStan.TabIndex = 7;
+            this.btnStan.Text = "Stan";
+            this.btnStan.UseVisualStyleBackColor = true;
+            this.btnStan.Click += new System.EventHandler(this.btnStan_Click);
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(332, 365);
+            this.ClientSize = new System.Drawing.Size(443, 449);
+            this.Controls.Add(this.btnStan);
             this.Controls.Add(this.LARS);
             this.Controls.Add(this.tbTafelVan);
             this.Controls.Add(this.tbTafel);
@@ -114,6 +133,7 @@ namespace WindowsFormsApp4
             this.Controls.Add(this.btnDoWhile);
             this.Controls.Add(this.btnWhile);
             this.Controls.Add(this.cmbDagenVanDeWeek);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -131,6 +151,7 @@ namespace WindowsFormsApp4
         private System.Windows.Forms.TextBox tbTafel;
         private System.Windows.Forms.TextBox tbTafelVan;
         private System.Windows.Forms.Button LARS;
+        private System.Windows.Forms.Button btnStan;
     }
 }
 
