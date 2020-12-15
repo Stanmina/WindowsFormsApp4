@@ -143,7 +143,7 @@ namespace WindowsFormsApp4
 
         private void btnStan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(" Stan is gay!");
+            MessageBox.Show("no u!");
         }
     }
 }
