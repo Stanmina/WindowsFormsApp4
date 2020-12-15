@@ -138,12 +138,12 @@ namespace WindowsFormsApp4
 
         private void LARS_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("lars was hier en blijft hier! aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+            MessageBox.Show("Lars was hier!");
         }
 
         private void btnStan_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("no u!");
+            MessageBox.Show("Stan van der Meijden");
         }
     }
 }
