@@ -145,5 +145,20 @@ namespace WindowsFormsApp4
         {
             MessageBox.Show("Stan van der Meijden");
         }
+
+        private void btnEmiel_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Emiel Dijkers");
+        }
+
+        private void btnLuuk_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Luuk Bekhuis");
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
